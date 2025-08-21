@@ -1,0 +1,46 @@
+.carousel-caption-full {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(9, 30, 62, 0.85); /* semi-transparent dark overlay */
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff; /* text color */
+  text-align: center;
+}
+
+.zoom-in-text,.zoom-out-text {
+  font-size: 20px;
+  font-style: normal;
+  animation: zoomIn 1.5s ease-in-out; 
+}
+
+/* Keyframes for zoom-in */
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1); 
+    opacity: 1;
+  }
+}
+
+
+/* Keyframes for zoom-out*/
+@keyframes zoomOut{
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1); 
+    opacity: 1;
+  }
+} 
