@@ -52,6 +52,40 @@ function Home() {
       <div className='sectionBox'>
           {/* Info Section */}
       <section className="container">
+          {/* <div className=''>
+            <h5>Opening Hours</h5>
+            <div>
+                <p>Mon - Fri <span>8:00am - 9:00pm</span></p>
+                <p>Saturday <span>8:00am - 7:00pm</span></p>
+                <p>Sunday  <span>8:00am - 5:00pm</span></p>
+                <button className="btn">Appointment</button>
+            </div>
+          </div>
+
+          <div>
+              <h5>Search a Docto</h5>
+            <div>
+                <input type="date" className="form-control mb-3" />
+                <select className="form-select mb-3">
+                    <option>Select A service</option>
+                    <option>Service 1</option>
+                    <option>Service 2</option>
+                    <option>Service 3</option>
+                    <option>Service 4</option>
+                </select>
+                <button className="btn">Serach Doctor</button>
+            </div>
+
+          </div>
+
+          <div>
+              <h5>Make Appointment</h5>
+            <div>
+                <p>Ipsum erat ipsum dolor clita rebum no rebum dolores labore, ipsum magna at eos et eos amet.</p>
+                <button className="btn">Serach Doctor</button>
+            </div>
+
+          </div> */}
           <div className="row text-white">
            
             <div className="section1 col-md-4 p-4 bg-info mt-2">
@@ -67,10 +101,10 @@ function Home() {
             <h5 className="mb-3">Search A Doctor</h5>
             <input type="date" className="form-control mb-3" />
             <select className="form-select mb-3">
-              <option>Select A Service</option>
-              <option>Dental Checkup</option>
-              <option>Cleaning</option>
-              <option>Root Canal</option>
+              <option>Service 1</option>
+              <option>Service 2</option>
+              <option>Service 3</option>
+              <option>Service 4</option>
             </select>
             <button className="btn btn-light w-100 fw-bold mt-2">Search Doctor</button>
           </div>

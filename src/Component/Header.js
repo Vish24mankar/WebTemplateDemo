@@ -52,7 +52,7 @@ function Header() {
                 <span className="navbar-toggler-icon"></span>
                 </button>
 
-                {/* Navbar links + form */}
+                {/* Navbar links form */}
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul className="navbar-nav mb-2 mb-lg-0 me-4 fs-2">
                     <li className="nav-item">
@@ -82,7 +82,7 @@ function Header() {
                     </li>
                 </ul>
 
-                {/* Search + Buttons */}
+                {/* Search Buttons */}
                <div className="d-flex align-items-center">
       {/* Search Icon */}
       {!showSerach && (

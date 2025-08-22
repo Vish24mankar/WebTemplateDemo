@@ -1,0 +1,25 @@
+.about-section {
+  background: #fff;
+}
+
+.price-card {
+  transition: 0.3s;
+}
+
+.price-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-appointment {
+  background-color: #00aace;
+  color: #fff;
+  border-radius: 30px;
+  padding: 8px 20px;
+  border: none;
+}
+
+.btn-appointment:hover {
+  background-color: #008aa0;
+  color: #fff;
+}
